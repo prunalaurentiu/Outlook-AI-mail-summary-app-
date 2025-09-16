@@ -1,0 +1,30 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment configuration
+.env
+.env.*
+!.env.example
+.token_cache.json
+
+# Logs
+*.log
+nohup.out
+
+# macOS / Finder
+.DS_Store
+
+# Project-specific bundles
+outlook-kb-agent/KB Mail.app/
+
+# Misc
+*.swp
